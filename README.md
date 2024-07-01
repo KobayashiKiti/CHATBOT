@@ -28,19 +28,4 @@ Run the following script to run an OpenAI API server locally. The server should 
 python3 -m llama_cpp.server --model "./models/mistral-7b-openorca.Q4_0.gguf" --chat_format chatml --n_gpu_layers 1
 ```
 
-4. **Update chat application code**
-
-Open the `index.html` file and locate the following line
-
-```html
-  // Real GPT
-  // const OPEN_AI_ENDPOINT = 'https://api.openai.com/v1' // Comment this line
-
-  // Security, do not deploy this in production
-  const chatGPTKey = 'sk-*****'; // Create an API key from here
-
-  // Local GPT
-  const OPEN_AI_ENDPOINT = 'http://localhost:8000/v1' // Uncomment this line
-```
-
 Run the application again. It should use localhost for local API inteference.
