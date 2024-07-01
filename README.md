@@ -8,7 +8,7 @@ Ensure you have the following:
 
 - A modern web browser (Chrome, Firefox, Safari, etc.)
 - A local web server (like Python's SimpleHTTPServer, Node's http-server, etc.). Or you can use Live Server feature from VSCode
-- An API key from OpenAI for API access. Or a laptop/PC with >8GB RAM
+- Laptop/PC with >8GB RAM
 
 ## Start the app using Local API
 
