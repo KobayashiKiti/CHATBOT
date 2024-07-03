@@ -23,11 +23,11 @@ Follow the guide here to install llama_cpp Python <https://github.com/abetlen/ll
 3. **Run**
 
 *Run Python files*
-Open terminal
-Runfile: py index_cpp.py
+-Open terminal
+-Runfile: py index_cpp.py
 
 *Run local server ( HTMl files)*
-Run the following script to run an server locally. The server should run at port 8000
+-Run the following script to run an server locally. The server should run at port 8000
 
 ```bash
 python3 -m llama_cpp.server --model "./models/mistral-7b-openorca.Q4_0.gguf" --chat_format chatml --n_gpu_layers 1
