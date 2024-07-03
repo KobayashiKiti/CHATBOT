@@ -21,11 +21,12 @@ Create a folder named `models`, then download `mistral-7b-openorca.Q4_0.gguf` fr
 Follow the guide here to install llama_cpp Python <https://github.com/abetlen/llama-cpp-python>
 
 3. **Run**
-*Run Python files
+
+*Run Python files*
 Open terminal
 Runfile: py index_cpp.py
 
-* Run local server ( HTMl files)
+*Run local server ( HTMl files)*
 Run the following script to run an server locally. The server should run at port 8000
 
 ```bash
